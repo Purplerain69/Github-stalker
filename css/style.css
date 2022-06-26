@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #333333;
+}
+
+.container {
+  max-width: 1500px;
+  margin: auto;
+}
+
+header {
+  width: 100%;
+  height: calc(100vh - 150px);
+  margin: auto;
+  margin-top: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header h1 {
+  color: #9c3900;
+  font-size: 80px;
+}
+
+header form {
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header form input {
+  width: 650px;
+  padding-left: 15px;
+  font-size: 40px;
+  font-style: italic;
+  border-radius: 5px;
+}
+
+header form .btn {
+  width: 200px;
+  height: 80px;
+  margin: auto;
+  margin-top: 40px;
+  font-size: 40px;
+  font-style: italic;
+  color: #fff;
+  border: 3px solid #000;
+  -webkit-box-shadow: -5px 5px 5px #0007;
+          box-shadow: -5px 5px 5px #0007;
+  background-color: #6e5494;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+header form .btn:hover {
+  -webkit-box-shadow: -10px 10px 5px #0007;
+          box-shadow: -10px 10px 5px #0007;
+  -webkit-transform: translate(5px, -5px);
+          transform: translate(5px, -5px);
+}
+
+section {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 40px;
+  margin-bottom: 150px;
+  border: solid 3px #000;
+  -webkit-box-shadow: -10px 10px 5px #0007;
+          box-shadow: -10px 10px 5px #0007;
+  background-color: #f5f5f5;
+}
+
+section .user-card {
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+section .user-card .user-icon {
+  max-width: 300px;
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section .user-card .user-icon img {
+  max-width: 300px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  border: solid 3px #000;
+}
+
+section .user-card .user-icon h2 {
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+section .user-card .user-icon .follow-info {
+  text-align: center;
+  font-size: 30px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+section .user-card .user-icon .follow-info > span {
+  font-size: 16px;
+  text-align: center;
+}
+
+section .corchete {
+  -webkit-text-stroke: 2px black;
+  line-height: 500px;
+  font-size: 500px;
+  font-weight: lighter;
+  color: #6e5494;
+}
+
+section .user-data {
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section .user-data .test {
+  height: 100%;
+  margin-top: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section .user-data .test ol * {
+  list-style-type: none;
+  text-align: start;
+  line-height: 60px;
+  font-size: 30px;
+  font-style: italic;
+  color: #c9510c;
+}
+
+section .user-data .test ol span {
+  color: #378d13;
+}
+
+section .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 200px;
+  height: 80px;
+  margin: auto;
+  margin-top: 60px;
+  font-size: 40px;
+  font-style: italic;
+  text-decoration: none;
+  color: #fff;
+  border: 3px solid #000;
+  -webkit-box-shadow: -5px 5px 5px #0007;
+          box-shadow: -5px 5px 5px #0007;
+  background-color: #6e5494;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+section .btn:hover {
+  -webkit-box-shadow: -10px 10px 5px #0007;
+          box-shadow: -10px 10px 5px #0007;
+  -webkit-transform: translate(5px, -5px);
+          transform: translate(5px, -5px);
+  color: #000;
+}
+
+footer {
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  bottom: 16px;
+  text-align: center;
+  font-style: italic;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
